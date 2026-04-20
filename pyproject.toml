@@ -1,0 +1,37 @@
+[project]
+name = "mspr"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "duckdb>=1.5.2",
+    "dvc>=3.67.1",
+    "imbalanced-learn>=0.14.1",
+    "joblib>=1.5.3",
+    "loguru>=0.7.3",
+    "mlflow>=1.27.0",
+    "numpy>=2.4.4",
+    "pandas>=3.0.2",
+    "pandera>=0.31.1",
+    "plotly>=6.7.0",
+    "pyarrow>=23.0.1",
+    "pydantic>=2.13.2",
+    "pyyaml>=6.0.3",
+    "rich>=15.0.0",
+    "scikit-learn>=1.8.0",
+    "streamlit>=1.56.0",
+    "typer>=0.24.1",
+    "xgboost>=3.2.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.2.0",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.8",
+    "pytest>=9.0.3",
+    "pytest-cov>=7.1.0",
+    "ruff>=0.15.11",
+    "seaborn>=0.13.2",
+]
