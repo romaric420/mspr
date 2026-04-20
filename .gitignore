@@ -50,3 +50,6 @@ htmlcov/
 # Reports auto-generes
 /reports/quality/*.json
 !/reports/quality/.gitkeep
+# MLflow
+mlruns/
+mlartifacts/
